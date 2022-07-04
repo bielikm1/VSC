@@ -1,0 +1,30 @@
+
+---- 14 verzia nodejs do deepin ------
+sudo apt remove nodejs npm
+sudo apt autoremove
+
+Add the following content to
+
+/etc/apt/sources.list.d/nodesource.list:
+
+deb https://deb.nodesource.com/node_14.x buster main
+# deb-src https://deb.nodesource.com/node_14.x buster main
+
+Then add the official key and you can install it directly.
+
+curl -sSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
+sudo apt update
+sudo apt install nodejs
+
+potom:
+ node -v /bude 14.19.3
+ npm -v /bude 8.13.2
+ cd VSC/Kalkulacka/
+ npx create-react-app calculator
+ http://localhost:3000/
+
+
+
+https://www.voxcafe.cz/mindblog/clanky/programovani/lekce9.html
+https://www.itnetwork.cz/javascript/react/zaklady/prvni-aplikace-v-react
+https://www.xenonstack.com/insights/reactjs-project-structure?hs_amp=true
