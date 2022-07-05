@@ -1,0 +1,7 @@
+
+sudo apt install flatpak
+which flatpak
+flatpak install https://flathub.org/repo/appstream/tv.kodi.Kodi.flatpakref
+flatpak run tv.kodi.Kodi
+
+https://repo.sc2.zone/
