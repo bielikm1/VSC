@@ -1,0 +1,11 @@
+node -v; index.js;
+npm -v; npm init; 
+npx -v
+npx nodemon
+
+Vytvorenie projektu
+1 - rozchodiť node, npm, npx
+2 - vytvoriť adresár a cez VSC konzolu prejsť do neho ... cd nodejs
+3 - vytvoriť súbor index.js, pridať príkaz console.log('Nieco napis')
+4 - spustiť npx nodemon, sleduje zmeny v súbore po uložení
+5 - spustiť npm init - vygeneruje package.json, npm install nodemon chalk 
