@@ -23,7 +23,7 @@ potom:
  npx create-react-app calculator
  http://localhost:3000/
 
-https://github.com/bielikm1/VSC
+https://github.com/bielikm1/VSC  -  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
 
 https://www.voxcafe.cz/mindblog/clanky/programovani/lekce9.html
 https://www.itnetwork.cz/javascript/react/zaklady/prvni-aplikace-v-react
