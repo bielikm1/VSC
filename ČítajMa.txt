@@ -15,6 +15,7 @@ Then add the official key and you can install it directly.
 curl -sSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
 sudo apt update
 sudo apt install nodejs
+npm install -g npm@latest
 
 potom:
  node -v /bude 14.19.3
